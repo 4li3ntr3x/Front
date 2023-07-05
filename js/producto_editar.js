@@ -26,7 +26,7 @@ function modificar() {
         stock: s,
         imagen:i
     }
-    let url = "http://4li3ntr3x.pythonanywhere.com/productos/"+id
+    let url = "https://4li3ntr3x.pythonanywhere.com/productos/"+id
     var options = {
         body: JSON.stringify(producto),
         method: 'PUT',
